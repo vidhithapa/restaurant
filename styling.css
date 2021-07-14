@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin:0;
+}
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index:10;
+    background-color:rosybrown;
+}
+.navbar-nav li{
+    padding:0 10px;
+}
+.navbar-nav li a{
+    float:right;
+    text-align:center;
+    margin-left:12px;
+}
+#nav-bar ul li a:hover{
+    color: #007bff !important;
+}
+.navbar{
+    background:midnightblue
+}
+.navbar-toggler{
+    border:none !important;
+} 
+.nav-link{
+    color:black!important;
+    font-weight: 600;
+    font-size: 15px;
+    font-style: bold;
+}
+#Slider{
+    width:100%;
+    height: auto;
+}
+.carousel-caption
+{
+    top:50%;
+    transform:translateY(-50%);
+    bottom: initial !important;
+}
+.carousel-caption h4
+{
+    color: #fff;
+    font-size: 42px;
+    text-align:center;
+    font-style:oblique; 
+}
+#about{
+    padding-top: 50px;
+    padding-bottom:50px;
+    color:black;
+    background-color:bisque;
+}
+#about .btn 
+{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.about-content
+{
+    padding-top:20px;
+}
+.food-items{
+    margin-top:25px;
+}
+.food-items .img-box
+{
+    opacity:1;
+    display:block;
+    position:relative;
+}
+#Menu{
+    text-align: center;
+}
+.food-items h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top:25px;
+    color:black!important;
+    text-align-last: auto;
+}
+.img-responsive2{
+    padding-left: 100px;
+}
+.img-responsive3{
+    padding-left: 200px;
+}
+.img-responsive4{
+    padding-left: 110px;
+} 
+.img-responsive5{
+    padding-left: 150px;
+} 
+.img-responsive6{
+    padding-left: 200px;
+} 
+#contact{
+    text-align: center;
+}
+#contact{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.container h1{
+    color:black;
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border:none;
+}
+::placeholder{
+    color: #999;
+}
+.follow{
+    background-color: #fff;
+    padding: 10%;
+    margin:15px;
+}
+#reservation{
+    text-align: center;
+    background-color: #efefef;
+    padding-top: 40px;
+    color:#777;
+}
+input,textarea{
+    width:80%;
+}
+
